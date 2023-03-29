@@ -1,7 +1,9 @@
-//React 102 - Projekt pokročilý slider
+//React 103 pokročilý slider - nastavujeme projekt
+import OneMovieSlider from "./components/OneMovieSlider"
+
 const App = () => {
   return (
-  <h1>Naše první komponenta</h1>
+  <OneMovieSlider />
   )
   }
   export default App
