@@ -1,4 +1,5 @@
-//React 106 - Projekt pokročilý slider - přidělování class
+//React 107 - Zaktívnenie tlačidiel a plynulý posun
+
 import OneMovieSlider from "./components/OneMovieSlider"
 
 const App = () => {
