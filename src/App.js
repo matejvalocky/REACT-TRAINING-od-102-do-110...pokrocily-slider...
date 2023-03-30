@@ -1,4 +1,4 @@
-//React 109 - Projekt pokročilý slider - automatické posouvání filmů
+//React 110 - doštýlovanie aplikácie
 
 import OneMovieSlider from "./components/OneMovieSlider"
 

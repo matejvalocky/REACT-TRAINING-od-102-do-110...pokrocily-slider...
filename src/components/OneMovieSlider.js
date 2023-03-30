@@ -48,7 +48,7 @@ const OneMovieSlider = () => {
                     <h2>{title}</h2>
                     <p>{description}</p>
                     <p>{tags}</p>
-                    <p>{age}</p>
+                    {/* <p>{age}</p> */}
                 </article>
              })}
         </div>
