@@ -1,9 +1,11 @@
-//React 104  pokročilý slider - vypisujeme filmy do stránky
+//React 105 - Projekt pokročilý slider - stylování důležité pro funkčnost
 import OneMovieSlider from "./components/OneMovieSlider"
 
 const App = () => {
-  return (
-  <OneMovieSlider />
-  )
+  return <div className="slider">
+            <OneMovieSlider />
+          </div>
+  
+  
   }
   export default App
