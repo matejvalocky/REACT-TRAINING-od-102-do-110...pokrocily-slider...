@@ -1,4 +1,4 @@
-//React 107 - Zaktívnenie tlačidiel a plynulý posun
+//React 108 - filmy sa točia dookola
 
 import OneMovieSlider from "./components/OneMovieSlider"
 

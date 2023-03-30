@@ -6,6 +6,15 @@ import data from "../data"
 const OneMovieSlider = () => {
     const [index, setIndex] = useState(0)
 
+    // Filmy sa v slideri točia stále dokola
+    useEffect ( () => {
+        if (index < 0) {
+            setIndex(data.length - 1)
+        } else if (index > data.length -1){
+            setIndex(0)
+        }
+    },[index])
+
 
 
     return <section className="all-movies">
