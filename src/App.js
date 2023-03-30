@@ -1,4 +1,4 @@
-//React 105 - Projekt pokročilý slider - stylování důležité pro funkčnost
+//React 106 - Projekt pokročilý slider - přidělování class
 import OneMovieSlider from "./components/OneMovieSlider"
 
 const App = () => {
