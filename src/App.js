@@ -1,4 +1,4 @@
-//React 108 - filmy sa točia dookola
+//React 109 - Projekt pokročilý slider - automatické posouvání filmů
 
 import OneMovieSlider from "./components/OneMovieSlider"
 

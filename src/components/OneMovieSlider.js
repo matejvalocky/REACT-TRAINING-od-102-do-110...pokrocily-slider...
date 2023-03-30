@@ -15,6 +15,14 @@ const OneMovieSlider = () => {
         }
     },[index])
 
+    //Automatické posúvanie
+    useEffect(() => {
+      let setIntervalID = setInterval(() => {
+            setIndex(index + 1)
+        },3000)
+        return () => clearInterval(setIntervalID)
+    },[index]) 
+
 
 
     return <section className="all-movies">
